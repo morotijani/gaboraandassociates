@@ -1,2 +1,2 @@
 # gaboraandassociates
-Aabora and Associates, a law firm website.
+Gabora and Associates, a law firm website.
