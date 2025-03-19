@@ -7,8 +7,8 @@
     <title>Gabora and Associate - Lawyer and Law Firm</title>
     <link rel="shortcut icon" href="img/favicon.png" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap">
-    <link rel="stylesheet" href="assets/css/plugins.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="<?= PROOT; ?>assets/css/plugins.css" />
+    <link rel="stylesheet" href="<?= PROOT; ?>assets/css/style.css" />
 </head>
 <body>
     <!-- Preloader -->

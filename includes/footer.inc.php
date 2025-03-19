@@ -58,27 +58,27 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 text-end">
-                        <p>Copyright 2025 by <a href="#">DuruThemes</a></p>
+                        <p>Copyright 2025 by <a href="#">Gabora &amp; Associates</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
     <!-- jQuery -->
-    <script src="assets/js/jquery-3.6.3.min.js"></script>
-    <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
-    <script src="assets/js/modernizr-2.6.2.min.js"></script>
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/jquery.isotope.v3.0.2.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/scrollIt.min.js"></script>
-    <script src="assets/js/jquery.waypoints.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/jquery.stellar.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.js"></script>
-    <script src="assets/js/YouTubePopUp.js"></script>
-    <script src="assets/js/smooth-scroll.min.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script src="<?= PROOT; ?>assets/js/jquery-3.6.3.min.js"></script>
+    <script src="<?= PROOT; ?>assets/js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="<?= PROOT; ?>assets/js/modernizr-2.6.2.min.js"></script>
+    <script src="<?= PROOT; ?>assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="<?= PROOT; ?>assets/js/jquery.isotope.v3.0.2.js"></script>
+    <script src="<?= PROOT; ?>assets/js/popper.min.js"></script>
+    <script src="<?= PROOT; ?>assets/js/bootstrap.min.js"></script>
+    <script src="<?= PROOT; ?>assets/js/scrollIt.min.js"></script>
+    <script src="<?= PROOT; ?>assets/js/jquery.waypoints.min.js"></script>
+    <script src="<?= PROOT; ?>assets/js/owl.carousel.min.js"></script>
+    <script src="<?= PROOT; ?>assets/js/jquery.stellar.min.js"></script>
+    <script src="<?= PROOT; ?>assets/js/jquery.magnific-popup.js"></script>
+    <script src="<?= PROOT; ?>assets/js/YouTubePopUp.js"></script>
+    <script src="<?= PROOT; ?>assets/js/smooth-scroll.min.js"></script>
+    <script src="<?= PROOT; ?>assets/js/custom.js"></script>
 </body>
 </html>
