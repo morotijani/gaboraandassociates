@@ -7,7 +7,7 @@
     <header class="header slider-fade">
         <div class="owl-carousel owl-theme">
             <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
-            <div class="item bg-img valign" data-overlay-dark="5" data-background="img/slider/1.jpg">
+            <div class="item bg-img valign" data-overlay-dark="5" data-background="<?= PROOT; ?>assets/media/slider/1.jpg">
                 <div class="container">
                     <div class="row justify-content-center align-items-center">
                         <div class="col-lg-7 col-md-12 text-center">
@@ -18,7 +18,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item bg-img valign" data-overlay-dark="5" data-background="img/slider/4.jpg">
+            <div class="item bg-img valign" data-overlay-dark="5" data-background="<?= PROOT; ?>assets/media/slider/4.jpg">
                 <div class="container">
                     <div class="row justify-content-center align-items-center">
                         <div class="col-lg-7 col-md-12 text-center">
@@ -29,7 +29,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item bg-img valign" data-overlay-dark="5" data-background="img/slider/3.jpg">
+            <div class="item bg-img valign" data-overlay-dark="5" data-background="<?= PROOT; ?>assets/media/slider/3.jpg">
                 <div class="container">
                     <div class="row justify-content-center align-items-center">
                         <div class="col-lg-7 col-md-12 text-center">
