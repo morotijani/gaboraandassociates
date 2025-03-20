@@ -67,7 +67,7 @@
                     <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#practice-areas">Practice Areas</a></li>
                     <li class="nav-item"><a class="nav-link" href="#attorneys">Attorneys</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -138,31 +138,12 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-info">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h2>Contact Us</h2>
-                    <p><i class="fas fa-map-marker-alt me-2"></i> 123 Legal Street, City, State 12345</p>
-                    <p><i class="fas fa-phone me-2"></i> (555) 123-4567</p>
-                    <p><i class="fas fa-envelope me-2"></i> info@gaboralaw.com</p>
-                </div>
-                <div class="col-md-6">
-                    <form>
-                        <div class="mb-3">
-                            <input type="text" class="form-control" placeholder="Your Name" required>
-                        </div>
-                        <div class="mb-3">
-                            <input type="email" class="form-control" placeholder="Your Email" required>
-                        </div>
-                        <div class="mb-3">
-                            <textarea class="form-control" rows="3" placeholder="Your Message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-danger">Send Message</button>
-                    </form>
-                </div>
-            </div>
+    <!-- Contact CTA Section -->
+    <section class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="mb-4">Need Legal Assistance?</h2>
+            <p class="lead mb-4">Our team of experienced attorneys is here to help you with your legal matters.</p>
+            <a href="contact.php" class="btn btn-danger btn-lg">Contact Us Today</a>
         </div>
     </section>
 
