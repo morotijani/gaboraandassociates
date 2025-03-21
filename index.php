@@ -3,7 +3,8 @@
     include ("includes/header.inc.php");
     include ("includes/nav.inc.php");
 ?>
-<!-- Slider -->
+    
+    <!-- Slider -->
     <header class="header slider-fade">
         <div class="owl-carousel owl-theme">
             <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
@@ -73,7 +74,7 @@
                             <div class="number">20</div>
                             <div class="txt">Years of experience</div>
                             <div class="number-bg"></div>
-                        </div> <img src="img/about-01.jpg" class="img-fluid" alt="">
+                        </div> <img src="<?= PROOT; ?>assets/media/about-01.jpg" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
@@ -114,14 +115,14 @@
     <section class="about section-padding bg-darkbrown">
         <div class="container">
             <div class="row justify-content-center align-items-center">
-                <div class="col-lg-5 col-md-12 animate-box" data-animate-effect="fadeInLeft"> <img class="img" src="img/about-02.jpg" alt=""> </div>
+                <div class="col-lg-5 col-md-12 animate-box" data-animate-effect="fadeInLeft"> <img class="img" src="<?= PROOT; ?>assets/media/about-02.jpg" alt=""> </div>
                 <div class="col-lg-5 offset-lg-1 col-md-12 animate-box" data-animate-effect="fadeInRight">
                     <div class="section-subtitle text-white">
                         <div class="icon"><i class="flaticon-courthouse"></i></div> People make the difference
                     </div>
                     <div class="section-title white">We here for provide <span>legal consultancy</span></div>
                     <p>All people are equal before the law. A good attorney is what makes a difference. Lorem aliquam sit amet auctor the done vitae risus duise in the miss ranish fermen.</p>
-                    <div class="about-bottom mt-30"> <img src="img/signature.svg" alt="" class="image about-signature">
+                    <div class="about-bottom mt-30"> <img src="<?= PROOT; ?>assets/media/signature.svg" alt="" class="image about-signature">
                         <div class="about-name-wrapper">
                             <div class="about-rol">President & Co-Founder</div>
                             <div class="about-name">Emily H. McGill</div>
@@ -146,7 +147,7 @@
                     <div class="case-study-container">
                         <div class="owl-carousel owl-theme">
                             <div class="item">
-                                <div class="img"> <img src="img/case/1.jpg" alt=""> </div>
+                                <div class="img"> <img src="<?= PROOT; ?>assets/media/case/1.jpg" alt=""> </div>
                                 <div class="con">
                                     <div class="title">Criminal
                                         <br>Issue
@@ -155,7 +156,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <div class="img"> <img src="img/case/2.jpg" alt=""> </div>
+                                <div class="img"> <img src="<?= PROOT; ?>assets/media/case/2.jpg" alt=""> </div>
                                 <div class="con">
                                     <div class="title">Family
                                         <br>Violence
@@ -164,7 +165,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <div class="img"> <img src="img/case/3.jpg" alt=""> </div>
+                                <div class="img"> <img src="<?= PROOT; ?>assets/media/case/3.jpg" alt=""> </div>
                                 <div class="con">
                                     <div class="title">Car
                                         <br>Accidents
@@ -173,7 +174,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <div class="img"> <img src="img/case/4.jpg" alt=""> </div>
+                                <div class="img"> <img src="<?= PROOT; ?>assets/media/case/4.jpg" alt=""> </div>
                                 <div class="con">
                                     <div class="title">Marriage
                                         <br>& Divorce
@@ -182,7 +183,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <div class="img"> <img src="img/case/5.jpg" alt=""> </div>
+                                <div class="img"> <img src="<?= PROOT; ?>assets/media/case/5.jpg" alt=""> </div>
                                 <div class="con">
                                     <div class="title">Real Estate
                                         <br>& Construction
@@ -191,7 +192,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <div class="img"> <img src="img/case/6.jpg" alt=""> </div>
+                                <div class="img"> <img src="<?= PROOT; ?>assets/media/case/6.jpg" alt=""> </div>
                                 <div class="con">
                                     <div class="title">Bank
                                         <br>Protected
@@ -206,7 +207,7 @@
         </div>
     </section>
     <!-- Video -->
-    <section class="section-padding video-wrapper video bg-img bg-fixed" data-overlay-dark="5" data-background="img/slider/2.jpg">
+    <section class="section-padding video-wrapper video bg-img bg-fixed" data-overlay-dark="5" data-background="<?= PROOT; ?>assets/media/slider/2.jpg">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-12 text-center mb-20">
@@ -369,7 +370,7 @@
                 <div class="col-md-12">
                     <div class="owl-carousel owl-theme">
                         <div class="item">
-                            <div class="img"> <img src="img/team/1.jpg" alt="" class="img-cover">
+                            <div class="img"> <img src="<?= PROOT; ?>assets/media/team/1.jpg" alt="" class="img-cover">
                                 <div class="social-icons">
                                     <a href="#"> <i class="fab fa-facebook-f"></i> </a>
                                     <a href="#"> <i class="fab fa-x-twitter"></i> </a>
@@ -383,7 +384,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="img"> <img src="img/team/2.jpg" alt="" class="img-cover">
+                            <div class="img"> <img src="<?= PROOT; ?>assets/media/team/2.jpg" alt="" class="img-cover">
                                 <div class="social-icons">
                                     <a href="#"> <i class="fab fa-facebook-f"></i> </a>
                                     <a href="#"> <i class="fab fa-x-twitter"></i> </a>
@@ -397,7 +398,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="img"> <img src="img/team/3.jpg" alt="" class="img-cover">
+                            <div class="img"> <img src="<?= PROOT; ?>assets/media/team/3.jpg" alt="" class="img-cover">
                                 <div class="social-icons">
                                     <a href="#"> <i class="fab fa-facebook-f"></i> </a>
                                     <a href="#"> <i class="fab fa-x-twitter"></i> </a>
@@ -411,7 +412,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="img"> <img src="img/team/4.jpg" alt="" class="img-cover">
+                            <div class="img"> <img src="<?= PROOT; ?>assets/media/team/4.jpg" alt="" class="img-cover">
                                 <div class="social-icons">
                                     <a href="#"> <i class="fab fa-facebook-f"></i> </a>
                                     <a href="#"> <i class="fab fa-x-twitter"></i> </a>
@@ -444,7 +445,7 @@
                 <div class="col-md-12">
                     <div class="owl-carousel owl-theme">
                         <div class="item mt-10 mb-30">
-                            <div class="img"> <img src="img/blog/1.jpg" class="img-fluid" alt="">
+                            <div class="img"> <img src="<?= PROOT; ?>assets/media/blog/1.jpg" class="img-fluid" alt="">
                                 <div class="cat">Attorney</div>
                             </div>
                             <div class="cont">
@@ -459,7 +460,7 @@
                             </div>
                         </div>
                         <div class="item mt-10 mb-30">
-                            <div class="img"> <img src="img/blog/2.jpg" class="img-fluid" alt="">
+                            <div class="img"> <img src="<?= PROOT; ?>assets/media/blog/2.jpg" class="img-fluid" alt="">
                                 <div class="cat">Employee</div>
                             </div>
                             <div class="cont">
@@ -474,7 +475,7 @@
                             </div>
                         </div>
                         <div class="item mt-10 mb-30">
-                            <div class="img"> <img src="img/blog/3.jpg" class="img-fluid" alt="">
+                            <div class="img"> <img src="<?= PROOT; ?>assets/media/blog/3.jpg" class="img-fluid" alt="">
                                 <div class="cat">Rights</div>
                             </div>
                             <div class="cont">
@@ -489,7 +490,7 @@
                             </div>
                         </div>
                         <div class="item mt-10 mb-30">
-                            <div class="img"> <img src="img/blog/4.jpg" class="img-fluid" alt="">
+                            <div class="img"> <img src="<?= PROOT; ?>assets/media/blog/4.jpg" class="img-fluid" alt="">
                                 <div class="cat">Internship</div>
                             </div>
                             <div class="cont">
@@ -504,7 +505,7 @@
                             </div>
                         </div>
                         <div class="item mt-10 mb-30">
-                            <div class="img"> <img src="img/blog/5.jpg" class="img-fluid" alt="">
+                            <div class="img"> <img src="<?= PROOT; ?>assets/media/blog/5.jpg" class="img-fluid" alt="">
                                 <div class="cat">Management</div>
                             </div>
                             <div class="cont">
@@ -519,7 +520,7 @@
                             </div>
                         </div>
                         <div class="item mt-10 mb-30">
-                            <div class="img"> <img src="img/blog/6.jpg" class="img-fluid" alt="">
+                            <div class="img"> <img src="<?= PROOT; ?>assets/media/blog/6.jpg" class="img-fluid" alt="">
                                 <div class="cat">Industrial</div>
                             </div>
                             <div class="cont">
@@ -540,7 +541,7 @@
     </section>
     <!-- Get in touch -->
     <section class="call">
-        <div class="background bg-img bg-fixed section-padding" data-background="img/slider/12.jpg" data-overlay-dark="3">
+        <div class="background bg-img bg-fixed section-padding" data-background="<?= PROOT; ?>assets/media/slider/12.jpg" data-overlay-dark="3">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-8 col-md-12">
