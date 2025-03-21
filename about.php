@@ -1,211 +1,254 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Gabora and Associates</title>
-    <meta name="description" content="Learn about Gabora and Associates law firm, our history, values, and dedicated team of legal professionals.">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <style>
-        :root {
-            --primary-color: #2c3e50;
-            --secondary-color: #34495e;
-            --accent-color: #e74c3c;
-        }
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-        }
-        .navbar {
-            background-color: var(--primary-color);
-            padding: 1rem 0;
-        }
-        .navbar-brand {
-            color: white !important;
-            font-weight: bold;
-            font-size: 1.5rem;
-        }
-        .nav-link {
-            color: rgba(255,255,255,0.9) !important;
-        }
-        .about-header {
-            background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.9)), url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3') center/cover;
-            color: white;
-            padding: 80px 0;
-            text-align: center;
-        }
-        .team-member-card {
-            transition: transform 0.3s;
-            margin-bottom: 30px;
-        }
-        .team-member-card:hover {
-            transform: translateY(-5px);
-        }
-        .values-section {
-            background-color: #f8f9fa;
-        }
-        .value-card {
-            text-align: center;
-            padding: 30px;
-            height: 100%;
-        }
-        .testimonial-card {
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            margin-bottom: 30px;
-            box-shadow: 0 0 20px rgba(0,0,0,0.1);
-        }
-        .footer {
-            background-color: var(--primary-color);
-            color: white;
-            padding: 20px 0;
-        }
-    </style>
-</head>
-<body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.php">Gabora & Associates</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.php#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.php#practice-areas">Practice Areas</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="about.php">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<?php
+    require_once ("conn/conn.php");
+    include ("includes/header.inc.php");
+    include ("includes/nav.inc.php");
+?>
 
-    <!-- About Header -->
-    <section class="about-header">
+     <!-- Header Banner -->
+     <div class="banner-header valign bg-img bg-fixed" data-overlay-dark="5" data-background="img/slider/1.jpg">
         <div class="container">
-            <h1 class="display-4 mb-4">About Gabora & Associates</h1>
-            <p class="lead">A Legacy of Legal Excellence and Client Dedication</p>
-        </div>
-    </section>
-
-    <!-- Our Story Section -->
-    <section class="py-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <h2 class="mb-4">Our Story</h2>
-                    <p>Founded in 2000, Gabora & Associates has established itself as a leading law firm committed to providing exceptional legal services to our clients. Our journey began with a simple vision: to offer personalized, professional legal representation while maintaining the highest standards of integrity and excellence.</p>
-                    <p>Over the years, we have successfully represented thousands of clients across various practice areas, building a reputation for thorough preparation, skilled advocacy, and unwavering dedication to our clients' interests.</p>
-                </div>
-                <div class="col-lg-6">
-                    <img src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?ixlib=rb-4.0.3" alt="Law Office" class="img-fluid rounded">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Our Values Section -->
-    <section class="values-section py-5">
-        <div class="container">
-            <h2 class="text-center mb-5">Our Core Values</h2>
             <div class="row">
-                <div class="col-md-4 mb-4">
-                    <div class="value-card">
-                        <i class="fas fa-balance-scale fa-3x mb-4 text-primary"></i>
-                        <h3>Integrity</h3>
-                        <p>We maintain the highest ethical standards in all our dealings, ensuring transparency and honesty in every interaction.</p>
-                    </div>
+                <div class="col-md-12 caption mt-60 text-center">
+                    <h6><div class="icon"><i class="flaticon-courthouse"></i></div> Who are we</h6>
+                    <h1>About <span>Law Firm</span></h1>
                 </div>
-                <div class="col-md-4 mb-4">
-                    <div class="value-card">
-                        <i class="fas fa-handshake fa-3x mb-4 text-primary"></i>
-                        <h3>Excellence</h3>
-                        <p>We strive for excellence in every aspect of our practice, delivering superior legal services tailored to each client's needs.</p>
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+    <section class="about section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 mb-30 animate-box" data-animate-effect="fadeInUp">
+                    <div class="section-subtitle">
+                        <div class="icon"><i class="flaticon-courthouse"></i></div> About law firm
                     </div>
+                    <div class="section-title">We are here to fight against <span>any violance</span></div>
+                    <p>Lawyer sit amet risus ac duin auctor posuere fanish amet the acinia lecratusan risus facilis semper etiam fermen. Lorem ipsum amet quam miss nestibulum drana fermen.</p>
+                    <ul class="page-list list-unstyled mb-25">
+                        <li>
+                            <div class="page-list-icon"> <span class="ti-check"></span> </div>
+                            <div class="page-list-text">
+                                <p>Full service corporate & business law.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="page-list-icon"> <span class="ti-check"></span> </div>
+                            <div class="page-list-text">
+                                <p>Realiable and innovative legal solutions.</p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-md-4 mb-4">
-                    <div class="value-card">
-                        <i class="fas fa-users fa-3x mb-4 text-primary"></i>
-                        <h3>Client Focus</h3>
-                        <p>Our clients' success is our priority. We work tirelessly to achieve the best possible outcomes for those we serve.</p>
+                <div class="col-lg-6 offset-lg-1 col-md-12 animate-box" data-animate-effect="fadeInUp">
+                    <div class="item">
+                        <div class="year-box vert-move">
+                            <div class="number">20</div>
+                            <div class="txt">Years of experience</div>
+                            <div class="number-bg"></div>
+                        </div> <img src="img/about-01.jpg" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Team Section -->
-    <section class="py-5">
+    <!-- Case Study Box -->
+    <section class="case-study-box">
         <div class="container">
-            <h2 class="text-center mb-5">Our Leadership Team</h2>
             <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card team-member-card">
-                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3" class="card-img-top" alt="John Gabora">
-                        <div class="card-body text-center">
-                            <h3 class="card-title">John Gabora</h3>
-                            <p class="text-muted">Founding Partner</p>
-                            <p>With over 25 years of experience in civil litigation and business law, John leads our firm with expertise and vision.</p>
+                <div class="col-lg-4 col-md-12 animate-box" data-animate-effect="fadeInUp">
+                    <div class="item"> <i class="icon flaticon-mace"></i>
+                        <div class="cont">
+                            <h5>Legal Production</h5>
+                            <p>Lorem ipsum amet quam miss nestibulum drana fermen.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card team-member-card">
-                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3" class="card-img-top" alt="Sarah Chen">
-                        <div class="card-body text-center">
-                            <h3 class="card-title">Sarah Chen</h3>
-                            <p class="text-muted">Senior Partner</p>
-                            <p>Specializing in real estate law and commercial transactions, Sarah brings strategic insight to complex legal matters.</p>
+                <div class="col-lg-4 col-md-12 animate-box" data-animate-effect="fadeInUp">
+                    <div class="item"> <i class="icon flaticon-balance"></i>
+                        <div class="cont">
+                            <h5>Private</h5>
+                            <p>Lorem ipsum amet quam miss nestibulum drana fermen.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card team-member-card">
-                        <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.0.3" class="card-img-top" alt="Michael Torres">
-                        <div class="card-body text-center">
-                            <h3 class="card-title">Michael Torres</h3>
-                            <p class="text-muted">Partner</p>
-                            <p>Michael's expertise in business law and litigation has helped numerous clients achieve their objectives.</p>
+                <div class="col-lg-4 col-md-12 animate-box" data-animate-effect="fadeInUp">
+                    <div class="item"> <i class="icon flaticon-mortarboard"></i>
+                        <div class="cont">
+                            <h5>Winning Awards</h5>
+                            <p>Lorem ipsum amet quam miss nestibulum drana fermen.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Client Testimonials -->
-    <section class="py-5 bg-light">
+    <!-- About 2 -->
+    <section class="about section-padding bg-darkbrown">
         <div class="container">
-            <h2 class="text-center mb-5">What Our Clients Say</h2>
-            <div class="row">
-                <div class="col-md-6 mb-4">
-                    <div class="testimonial-card">
-                        <p class="mb-3"><i class="fas fa-quote-left text-primary me-2"></i>Gabora & Associates provided exceptional legal guidance during our business acquisition. Their attention to detail and professional approach made a complex process manageable.</p>
-                        <strong>- Robert Johnson</strong><br>
-                        <small class="text-muted">CEO, Johnson Enterprises</small>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-5 col-md-12 animate-box" data-animate-effect="fadeInLeft"> <img class="img" src="img/about-02.jpg" alt=""> </div>
+                <div class="col-lg-5 offset-lg-1 col-md-12 animate-box" data-animate-effect="fadeInRight">
+                    <div class="section-subtitle text-white">
+                        <div class="icon"><i class="flaticon-courthouse"></i></div> People make the difference
                     </div>
-                </div>
-                <div class="col-md-6 mb-4">
-                    <div class="testimonial-card">
-                        <p class="mb-3"><i class="fas fa-quote-left text-primary me-2"></i>The team's expertise in real estate law was invaluable during our property development project. They consistently delivered results while maintaining clear communication throughout.</p>
-                        <strong>- Maria Garcia</strong><br>
-                        <small class="text-muted">Real Estate Developer</small>
+                    <div class="section-title white">We here for provide <span>legal consultancy</span></div>
+                    <p>All people are equal before the law. A good attorney is what makes a difference. Lorem aliquam sit amet auctor the done vitae risus duise in the miss ranish fermen.</p>
+                    <div class="about-bottom mt-30"> <img src="img/signature.svg" alt="" class="image about-signature">
+                        <div class="about-name-wrapper">
+                            <div class="about-rol">President & Co-Founder</div>
+                            <div class="about-name">Emily H. McGill</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Footer -->
-    <footer class="footer text-center">
+    <!-- Clients -->
+    <section class="clients section-padding">
         <div class="container">
-            <p>&copy; 2023 Gabora and Associates. All rights reserved.</p>
+            <div class="row">
+               <div class="col-md-12 mb-30 text-center">
+                   <div class="section-subtitle">
+                        <div class="icon"><i class="flaticon-courthouse"></i></div> Our Successes
+                    </div>
+                    <div class="section-title">Awards <span>&</span> Recognitions</div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-7 col-md-12 text-center">
+                    <div class="owl-carousel owl-theme">
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/awards/01.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/awards/02.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/awards/03.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/awards/04.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+    </section>
+    <!-- Video -->
+    <section class="section-padding video-wrapper video bg-img bg-fixed" data-overlay-dark="5" data-background="img/slider/2.jpg">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-12 text-center mb-20">
+                    <div class="section-subtitle text-white">
+                        <div class="icon"><i class="flaticon-courthouse"></i></div> Watch law firm
+                    </div>
+                    <div class="section-title white">Law Firm <span>Promo Video</span></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <a class="vid" href="https://youtu.be/LK_Agkm-_wY">
+                        <div class="vid-butn"> <span class="icon"><i class="ti-control-play"></i></span> </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team -->
+    <section class="team section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-20">
+                    <div class="section-subtitle">
+                        <div class="icon"><i class="flaticon-courthouse"></i></div> Qualified experts
+                    </div>
+                    <div class="section-title">Meet Our <span>Attorneys</span></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="img"> <img src="img/team/1.jpg" alt="" class="img-cover">
+                                <div class="social-icons">
+                                    <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                                    <a href="#"> <i class="fab fa-x-twitter"></i> </a>
+                                    <a href="#"> <i class="fab fa-instagram"></i> </a>
+                                    <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <h5><a href="team-single.html">Rhea McKean</a></h5>
+                                <p>Criminal Lawyer</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img"> <img src="img/team/2.jpg" alt="" class="img-cover">
+                                <div class="social-icons">
+                                    <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                                    <a href="#"> <i class="fab fa-x-twitter"></i> </a>
+                                    <a href="#"> <i class="fab fa-instagram"></i> </a>
+                                    <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <h5><a href="team-single.html">Martin Brown</a></h5>
+                                <p>Family Lawyer</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img"> <img src="img/team/3.jpg" alt="" class="img-cover">
+                                <div class="social-icons">
+                                    <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                                    <a href="#"> <i class="fab fa-x-twitter"></i> </a>
+                                    <a href="#"> <i class="fab fa-instagram"></i> </a>
+                                    <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <h5><a href="team-single.html">Sophia Mia</a></h5>
+                                <p>Corporate Lawyer</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img"> <img src="img/team/4.jpg" alt="" class="img-cover">
+                                <div class="social-icons">
+                                    <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                                    <a href="#"> <i class="fab fa-x-twitter"></i> </a>
+                                    <a href="#"> <i class="fab fa-instagram"></i> </a>
+                                    <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <h5><a href="team-single.html">Micheal Dan</a></h5>
+                                <p>Business Lawyer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Get in touch -->
+    <section class="call">
+        <div class="background bg-img bg-fixed section-padding" data-background="img/slider/12.jpg" data-overlay-dark="3">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-8 col-md-12">
+                        <div class="section-title text-white mb-0">All people are equal before the law. <span>A good attorney</span> is what makes a difference.</div>
+                    </div>
+                    <div class="col-lg-3 offset-lg-1 col-md-12">
+                        <div class="call-center">
+                            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="text">
+                                <p>Get in touch</p> <a href="tel:1234567890">123 456 7890</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<?php include ("includes/footer.inc.php"); ?>
