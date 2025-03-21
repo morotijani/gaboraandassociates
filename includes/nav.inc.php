@@ -17,7 +17,7 @@
                     <li class="nav-item"><a class="nav-link" href="<?= PROOT; ?>about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="<?= PROOT; ?>practice-areas">Practice areas</a></li>
                     <li class="nav-item"><a class="nav-link" href="<?= PROOT; ?>case-study">Case Study</a></li>
-                    <li class="nav-item"><a class="nav-link" href="<?= PROOT; ?>team">Attorneys</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?= PROOT; ?>attorneys">Attorneys</a></li>
                     <li class="nav-item"><a class="nav-link" href="<?= PROOT; ?>blog">Blog</a></li>
                     <li class="nav-item"><a class="nav-link" href="<?= PROOT; ?>contact">Contact</a></li>
                 </ul>
