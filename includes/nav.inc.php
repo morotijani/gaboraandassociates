@@ -3,7 +3,9 @@
         <div class="container">
             <!-- Logo -->
             <div class="logo-wrapper">
-                <a class="logo" href="<?= PROOT; ?>"><img src="<?= PROOT; ?>assets/media/logo.png" class="logo-img" alt=""></a>
+                <a class="logo" href="<?= PROOT; ?>index">
+                    <img src="<?= PROOT; ?>assets/media/logo.png" class="logo-img" alt="Gabora Logo">
+                </a>
             </div>
             <!-- Button -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="ti-menu"></i></span> </button>
@@ -20,7 +22,7 @@
                     <li class="nav-item"><a class="nav-link" href="<?= PROOT; ?>contact">Contact</a></li>
                 </ul>
                 <div class="navbar-right">
-                    <div class="button"><a href="<?= PROOT; ?>contact.html">Free consultant</a></div>
+                    <div class="button"><a href="<?= PROOT; ?>contact">Free consultant</a></div>
                 </div>
             </div>
         </div>

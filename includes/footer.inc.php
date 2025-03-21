@@ -6,7 +6,7 @@
                 <div class="row">
                     <div class="col-md-4 mb-30">
                         <div class="item">
-                            <div class="logo"><img src="img/logo.png" alt=""></div>
+                            <div class="logo"><img src="<?= PROOT; ?>assets/media/logo.png" alt=""></div>
                             <p>Lorem ipsum is simply dummy text of the rinte and type settin in the fermen.</p>
                             <div class="social-icons">
                                 <ul class="list-inline">
