@@ -4,8 +4,8 @@
     include ("includes/nav.inc.php");
 ?>
 
-     <!-- Header Banner -->
-     <div class="banner-header valign bg-img bg-fixed" data-overlay-dark="5" data-background="img/slider/1.jpg">
+    <!-- Header Banner -->
+    <div class="banner-header valign bg-img bg-fixed" data-overlay-dark="5" data-background="<?= PROOT; ?>assets/media/slider/1.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 caption mt-60 text-center">
@@ -46,7 +46,7 @@
                             <div class="number">20</div>
                             <div class="txt">Years of experience</div>
                             <div class="number-bg"></div>
-                        </div> <img src="img/about-01.jpg" class="img-fluid" alt="">
+                        </div> <img src="<?= PROOT; ?>assets/media/about-01.jpg" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
@@ -87,14 +87,14 @@
     <section class="about section-padding bg-darkbrown">
         <div class="container">
             <div class="row justify-content-center align-items-center">
-                <div class="col-lg-5 col-md-12 animate-box" data-animate-effect="fadeInLeft"> <img class="img" src="img/about-02.jpg" alt=""> </div>
+                <div class="col-lg-5 col-md-12 animate-box" data-animate-effect="fadeInLeft"> <img class="img" src="<?= PROOT; ?>assets/media/about-02.jpg" alt=""> </div>
                 <div class="col-lg-5 offset-lg-1 col-md-12 animate-box" data-animate-effect="fadeInRight">
                     <div class="section-subtitle text-white">
                         <div class="icon"><i class="flaticon-courthouse"></i></div> People make the difference
                     </div>
                     <div class="section-title white">We here for provide <span>legal consultancy</span></div>
                     <p>All people are equal before the law. A good attorney is what makes a difference. Lorem aliquam sit amet auctor the done vitae risus duise in the miss ranish fermen.</p>
-                    <div class="about-bottom mt-30"> <img src="img/signature.svg" alt="" class="image about-signature">
+                    <div class="about-bottom mt-30"> <img src="<?= PROOT; ?>assets/media/signature.svg" alt="" class="image about-signature">
                         <div class="about-name-wrapper">
                             <div class="about-rol">President & Co-Founder</div>
                             <div class="about-name">Emily H. McGill</div>
@@ -119,16 +119,16 @@
                 <div class="col-lg-7 col-md-12 text-center">
                     <div class="owl-carousel owl-theme">
                         <div class="clients-logo">
-                            <a href="#0"><img src="img/awards/01.png" alt=""></a>
+                            <a href="#0"><img src="<?= PROOT; ?>assets/media/awards/01.png" alt=""></a>
                         </div>
                         <div class="clients-logo">
-                            <a href="#0"><img src="img/awards/02.png" alt=""></a>
+                            <a href="#0"><img src="<?= PROOT; ?>assets/media/awards/02.png" alt=""></a>
                         </div>
                         <div class="clients-logo">
-                            <a href="#0"><img src="img/awards/03.png" alt=""></a>
+                            <a href="#0"><img src="<?= PROOT; ?>assets/media/awards/03.png" alt=""></a>
                         </div>
                         <div class="clients-logo">
-                            <a href="#0"><img src="img/awards/04.png" alt=""></a>
+                            <a href="#0"><img src="<?= PROOT; ?>assets/media/awards/04.png" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -136,7 +136,7 @@
         </div>
     </section>
     <!-- Video -->
-    <section class="section-padding video-wrapper video bg-img bg-fixed" data-overlay-dark="5" data-background="img/slider/2.jpg">
+    <section class="section-padding video-wrapper video bg-img bg-fixed" data-overlay-dark="5" data-background="<?= PROOT; ?>assets/media/slider/2.jpg">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-12 text-center mb-20">
@@ -170,7 +170,7 @@
                 <div class="col-md-12">
                     <div class="owl-carousel owl-theme">
                         <div class="item">
-                            <div class="img"> <img src="img/team/1.jpg" alt="" class="img-cover">
+                            <div class="img"> <img src="<?= PROOT; ?>assets/media/team/1.jpg" alt="" class="img-cover">
                                 <div class="social-icons">
                                     <a href="#"> <i class="fab fa-facebook-f"></i> </a>
                                     <a href="#"> <i class="fab fa-x-twitter"></i> </a>
@@ -184,7 +184,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="img"> <img src="img/team/2.jpg" alt="" class="img-cover">
+                            <div class="img"> <img src="<?= PROOT; ?>assets/media/team/2.jpg" alt="" class="img-cover">
                                 <div class="social-icons">
                                     <a href="#"> <i class="fab fa-facebook-f"></i> </a>
                                     <a href="#"> <i class="fab fa-x-twitter"></i> </a>
@@ -198,7 +198,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="img"> <img src="img/team/3.jpg" alt="" class="img-cover">
+                            <div class="img"> <img src="<?= PROOT; ?>assets/media/team/3.jpg" alt="" class="img-cover">
                                 <div class="social-icons">
                                     <a href="#"> <i class="fab fa-facebook-f"></i> </a>
                                     <a href="#"> <i class="fab fa-x-twitter"></i> </a>
@@ -212,7 +212,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="img"> <img src="img/team/4.jpg" alt="" class="img-cover">
+                            <div class="img"> <img src="<?= PROOT; ?>assets/media/team/4.jpg" alt="" class="img-cover">
                                 <div class="social-icons">
                                     <a href="#"> <i class="fab fa-facebook-f"></i> </a>
                                     <a href="#"> <i class="fab fa-x-twitter"></i> </a>
@@ -232,7 +232,7 @@
     </section>
     <!-- Get in touch -->
     <section class="call">
-        <div class="background bg-img bg-fixed section-padding" data-background="img/slider/12.jpg" data-overlay-dark="3">
+        <div class="background bg-img bg-fixed section-padding" data-background="<?= PROOT; ?>assets/media/slider/12.jpg" data-overlay-dark="3">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-8 col-md-12">
