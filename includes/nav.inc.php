@@ -12,7 +12,7 @@
             <!-- Menu -->
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"> <a class="nav-link active" href="<?= PROOT; ?>">Home</a>
+                    <li class="nav-item"> <a class="nav-link" href="<?= PROOT; ?>index">Home</a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="<?= PROOT; ?>about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="<?= PROOT; ?>practice-areas">Practice areas</a></li>

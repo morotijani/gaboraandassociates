@@ -80,5 +80,20 @@
     <script src="<?= PROOT; ?>assets/js/YouTubePopUp.js"></script>
     <script src="<?= PROOT; ?>assets/js/smooth-scroll.min.js"></script>
     <script src="<?= PROOT; ?>assets/js/custom.js"></script>
+
+    <script>
+        // set nav link to active on current page
+        const links = document.querySelectorAll(".nav-link");
+        const currentUrl = window.location.pathname;
+
+        links.forEach(link => {
+            if (link.href.includes(currentUrl)) {
+                link.classList.add("active");
+            } else if (link.href.includes("index") && currentUrl === "/") {
+                link.classList.add("active");
+            }
+        });
+
+    </script>
 </body>
 </html>
