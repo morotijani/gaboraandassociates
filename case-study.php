@@ -5,7 +5,7 @@
 ?>
 
     <!-- Header Banner -->
-    <div class="banner-header valign bg-img bg-fixed" data-overlay-dark="6" data-background="img/slider/11.jpg">
+    <div class="banner-header valign bg-img bg-fixed" data-overlay-dark="6" data-background="<?= PROOT; ?>assets/media/slider/11.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 caption mt-60 text-center">
@@ -20,70 +20,70 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-30">
-                            <div class="item">
-                                <div class="img"> <img src="img/case/1.jpg" alt=""> </div>
-                                <div class="con">
-                                    <div class="title">Criminal
-                                        <br>Issue
-                                    </div>
-                                    <div class="arrow"> <a href="case-study-page.html"><span class="fa-light fa-arrow-right"></span></a> </div>
-                                </div>
+                    <div class="item">
+                        <div class="img"> <img src="<?= PROOT; ?>assets/media/case/1.jpg" alt=""> </div>
+                        <div class="con">
+                            <div class="title">Criminal
+                                <br>Issue
                             </div>
+                            <div class="arrow"> <a href="case-study-page.html"><span class="fa-light fa-arrow-right"></span></a> </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-30">
-                            <div class="item">
-                                <div class="img"> <img src="img/case/2.jpg" alt=""> </div>
-                                <div class="con">
-                                    <div class="title">Family
-                                        <br>Violence
-                                    </div>
-                                    <div class="arrow"> <a href="case-study-page.html"><span class="fa-light fa-arrow-right"></span></a> </div>
-                                </div>
+                    <div class="item">
+                        <div class="img"> <img src="<?= PROOT; ?>assets/media/case/2.jpg" alt=""> </div>
+                        <div class="con">
+                            <div class="title">Family
+                                <br>Violence
                             </div>
+                            <div class="arrow"> <a href="case-study-page.html"><span class="fa-light fa-arrow-right"></span></a> </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-30">
-                            <div class="item">
-                                <div class="img"> <img src="img/case/3.jpg" alt=""> </div>
-                                <div class="con">
-                                    <div class="title">Car
-                                        <br>Accidents
-                                    </div>
-                                    <div class="arrow"> <a href="case-study-page.html"><span class="fa-light fa-arrow-right"></span></a> </div>
-                                </div>
+                    <div class="item">
+                        <div class="img"> <img src="<?= PROOT; ?>assets/media/case/3.jpg" alt=""> </div>
+                        <div class="con">
+                            <div class="title">Car
+                                <br>Accidents
                             </div>
+                            <div class="arrow"> <a href="case-study-page.html"><span class="fa-light fa-arrow-right"></span></a> </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-30">
-                            <div class="item">
-                                <div class="img"> <img src="img/case/4.jpg" alt=""> </div>
-                                <div class="con">
-                                    <div class="title">Marriage
-                                        <br>& Divorce
-                                    </div>
-                                    <div class="arrow"> <a href="case-study-page.html"><span class="fa-light fa-arrow-right"></span></a> </div>
-                                </div>
+                    <div class="item">
+                        <div class="img"> <img src="<?= PROOT; ?>assets/media/case/4.jpg" alt=""> </div>
+                        <div class="con">
+                            <div class="title">Marriage
+                                <br>& Divorce
                             </div>
+                            <div class="arrow"> <a href="case-study-page.html"><span class="fa-light fa-arrow-right"></span></a> </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-30">
-                            <div class="item">
-                                <div class="img"> <img src="img/case/5.jpg" alt=""> </div>
-                                <div class="con">
-                                    <div class="title">Real Estate
-                                        <br>& Construction
-                                    </div>
-                                    <div class="arrow"> <a href="case-study-page.html"><span class="fa-light fa-arrow-right"></span></a> </div>
-                                </div>
+                    <div class="item">
+                        <div class="img"> <img src="<?= PROOT; ?>assets/media/case/5.jpg" alt=""> </div>
+                        <div class="con">
+                            <div class="title">Real Estate
+                                <br>& Construction
                             </div>
+                            <div class="arrow"> <a href="case-study-page.html"><span class="fa-light fa-arrow-right"></span></a> </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-30">
-                            <div class="item">
-                                <div class="img"> <img src="img/case/6.jpg" alt=""> </div>
-                                <div class="con">
-                                    <div class="title">Bank
-                                        <br>Protected
-                                    </div>
-                                    <div class="arrow"> <a href="case-study-page.html"><span class="fa-light fa-arrow-right"></span></a> </div>
+                    <div class="item">
+                        <div class="img"> <img src="<?= PROOT; ?>assets/media/case/6.jpg" alt=""> </div>
+                            <div class="con">
+                                <div class="title">Bank
+                                    <br>Protected
                                 </div>
+                                <div class="arrow"> <a href="case-study-page.html"><span class="fa-light fa-arrow-right"></span></a> </div>
                             </div>
+                        </div>
                     </div>
             </div>
         </div>
@@ -177,7 +177,7 @@
     </section>
     <!-- Get in touch -->
     <section class="call">
-        <div class="background bg-img bg-fixed section-padding" data-background="img/slider/12.jpg" data-overlay-dark="3">
+        <div class="background bg-img bg-fixed section-padding" data-background="<?= PROOT; ?>assets/media/slider/12.jpg" data-overlay-dark="3">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-8 col-md-12">

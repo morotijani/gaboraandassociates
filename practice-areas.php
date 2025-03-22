@@ -5,7 +5,7 @@
 ?>
     
     <!-- Header Banner -->
-    <div class="banner-header valign bg-img bg-fixed" data-overlay-dark="5" data-background="img/slider/8.jpg">
+    <div class="banner-header valign bg-img bg-fixed" data-overlay-dark="5" data-background="<?= PROOT; ?>assets/media/slider/8.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 caption mt-60 text-center">
@@ -19,71 +19,71 @@
     <section class="practice-areas section-padding">
         <div class="container">
             <div class="row">
-                        <div class="col-lg-3 col-md-4">
-                            <div class="item">
-                                <a href="case-study-page.html"> <i class="flaticon-courthouse"></i>
-                                    <h5>Real Estate Law</h5>
-                                    <div class="shape"> <i class="flaticon-courthouse"></i> </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4">
-                            <div class="item">
-                                <a href="case-study-page.html"> <i class="flaticon-balance"></i>
-                                    <h5>Personal Law</h5>
-                                    <div class="shape"> <i class="flaticon-balance"></i> </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4">
-                            <div class="item">
-                                <a href="case-study-page.html"> <i class="flaticon-wounded"></i>
-                                    <h5>Personal Injury</h5>
-                                    <div class="shape"> <i class="flaticon-wounded"></i> </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4">
-                            <div class="item">
-                                <a href="case-study-page.html"> <i class="flaticon-suitcase"></i>
-                                    <h5>Business Law</h5>
-                                    <div class="shape"> <i class="flaticon-suitcase"></i> </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4">
-                            <div class="item">
-                                <a href="case-study-page.html"> <i class="flaticon-mortarboard"></i>
-                                    <h5>Education Law</h5>
-                                    <div class="shape"> <i class="flaticon-mortarboard"></i> </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4">
-                            <div class="item">
-                                <a href="case-study-page.html"> <i class="flaticon-thief"></i>
-                                    <h5>Criminal Law</h5>
-                                    <div class="shape"> <i class="flaticon-thief"></i> </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4">
-                            <div class="item">
-                                <a href="case-study-page.html"> <i class="flaticon-save-money"></i>
-                                    <h5>Bank & Financial</h5>
-                                    <div class="shape"> <i class="flaticon-save-money"></i> </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4">
-                            <div class="item">
-                                <a href="case-study-page.html"> <i class="flaticon-parents"></i>
-                                    <h5>Family Law</h5>
-                                    <div class="shape"> <i class="flaticon-parents"></i> </div>
-                                </a>
-                            </div>
-                        </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="item">
+                        <a href="case-study-page.html"> <i class="flaticon-courthouse"></i>
+                            <h5>Real Estate Law</h5>
+                            <div class="shape"> <i class="flaticon-courthouse"></i> </div>
+                        </a>
                     </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="item">
+                        <a href="case-study-page.html"> <i class="flaticon-balance"></i>
+                            <h5>Personal Law</h5>
+                            <div class="shape"> <i class="flaticon-balance"></i> </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="item">
+                        <a href="case-study-page.html"> <i class="flaticon-wounded"></i>
+                            <h5>Personal Injury</h5>
+                            <div class="shape"> <i class="flaticon-wounded"></i> </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="item">
+                        <a href="case-study-page.html"> <i class="flaticon-suitcase"></i>
+                            <h5>Business Law</h5>
+                            <div class="shape"> <i class="flaticon-suitcase"></i> </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="item">
+                        <a href="case-study-page.html"> <i class="flaticon-mortarboard"></i>
+                            <h5>Education Law</h5>
+                            <div class="shape"> <i class="flaticon-mortarboard"></i> </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="item">
+                        <a href="case-study-page.html"> <i class="flaticon-thief"></i>
+                            <h5>Criminal Law</h5>
+                            <div class="shape"> <i class="flaticon-thief"></i> </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="item">
+                        <a href="case-study-page.html"> <i class="flaticon-save-money"></i>
+                            <h5>Bank & Financial</h5>
+                            <div class="shape"> <i class="flaticon-save-money"></i> </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="item">
+                        <a href="case-study-page.html"> <i class="flaticon-parents"></i>
+                            <h5>Family Law</h5>
+                            <div class="shape"> <i class="flaticon-parents"></i> </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!-- Faqs -->
@@ -175,7 +175,7 @@
     </section>
     <!-- Get in touch -->
     <section class="call">
-        <div class="background bg-img bg-fixed section-padding" data-background="img/slider/12.jpg" data-overlay-dark="3">
+        <div class="background bg-img bg-fixed section-padding" data-background="<?= PROOT; ?>assets/media/slider/12.jpg" data-overlay-dark="3">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-8 col-md-12">
