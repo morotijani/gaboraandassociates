@@ -5,7 +5,7 @@
 ?>
 
 <!-- Header Banner -->
-<div class="banner-header valign bg-img bg-fixed" data-overlay-dark="5" data-background="img/slider/10.jpg">
+<div class="banner-header valign bg-img bg-fixed" data-overlay-dark="5" data-background="<?= PROOT; ?>assets/media/slider/10.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 caption mt-60 text-center">
@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="item">
-                        <div class="img"> <img src="img/team/1.jpg" alt="" class="img-cover">
+                        <div class="img"> <img src="<?= PROOT; ?>assets/media/team/1.jpg" alt="" class="img-cover">
                             <div class="social-icons">
                                 <a href="#"> <i class="fab fa-facebook-f"></i> </a>
                                 <a href="#"> <i class="fab fa-x-twitter"></i> </a>
@@ -37,7 +37,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="item">
-                        <div class="img"> <img src="img/team/2.jpg" alt="" class="img-cover">
+                        <div class="img"> <img src="<?= PROOT; ?>assets/media/team/2.jpg" alt="" class="img-cover">
                             <div class="social-icons">
                                 <a href="#"> <i class="fab fa-facebook-f"></i> </a>
                                 <a href="#"> <i class="fab fa-x-twitter"></i> </a>
@@ -53,7 +53,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="item">
-                        <div class="img"> <img src="img/team/3.jpg" alt="" class="img-cover">
+                        <div class="img"> <img src="<?= PROOT; ?>assets/media/team/3.jpg" alt="" class="img-cover">
                             <div class="social-icons">
                                 <a href="#"> <i class="fab fa-facebook-f"></i> </a>
                                 <a href="#"> <i class="fab fa-x-twitter"></i> </a>
@@ -69,7 +69,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="item">
-                        <div class="img"> <img src="img/team/4.jpg" alt="" class="img-cover">
+                        <div class="img"> <img src="<?= PROOT; ?>assets/media/team/4.jpg" alt="" class="img-cover">
                             <div class="social-icons">
                                 <a href="#"> <i class="fab fa-facebook-f"></i> </a>
                                 <a href="#"> <i class="fab fa-x-twitter"></i> </a>
@@ -85,7 +85,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="item">
-                        <div class="img"> <img src="img/team/5.jpg" alt="" class="img-cover">
+                        <div class="img"> <img src="<?= PROOT; ?>assets/media/team/5.jpg" alt="" class="img-cover">
                             <div class="social-icons">
                                 <a href="#"> <i class="fab fa-facebook-f"></i> </a>
                                 <a href="#"> <i class="fab fa-x-twitter"></i> </a>
@@ -101,7 +101,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="item">
-                        <div class="img"> <img src="img/team/6.jpg" alt="" class="img-cover">
+                        <div class="img"> <img src="<?= PROOT; ?>assets/media/team/6.jpg" alt="" class="img-cover">
                             <div class="social-icons">
                                 <a href="#"> <i class="fab fa-facebook-f"></i> </a>
                                 <a href="#"> <i class="fab fa-x-twitter"></i> </a>
@@ -117,7 +117,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="item">
-                        <div class="img"> <img src="img/team/7.jpg" alt="" class="img-cover">
+                        <div class="img"> <img src="<?= PROOT; ?>assets/media/team/7.jpg" alt="" class="img-cover">
                             <div class="social-icons">
                                 <a href="#"> <i class="fab fa-facebook-f"></i> </a>
                                 <a href="#"> <i class="fab fa-x-twitter"></i> </a>
@@ -133,7 +133,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="item">
-                        <div class="img"> <img src="img/team/8.jpg" alt="" class="img-cover">
+                        <div class="img"> <img src="<?= PROOT; ?>assets/media/team/8.jpg" alt="" class="img-cover">
                             <div class="social-icons">
                                 <a href="#"> <i class="fab fa-facebook-f"></i> </a>
                                 <a href="#"> <i class="fab fa-x-twitter"></i> </a>
@@ -152,7 +152,7 @@
     </section>
     <!-- Get in touch -->
     <section class="call">
-        <div class="background bg-img bg-fixed section-padding" data-background="img/slider/12.jpg" data-overlay-dark="3">
+        <div class="background bg-img bg-fixed section-padding" data-background="<?= PROOT; ?>assets/media/slider/12.jpg" data-overlay-dark="3">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-8 col-md-12">
