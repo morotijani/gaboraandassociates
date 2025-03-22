@@ -5,7 +5,7 @@
 ?>
 
      <!-- Header Banner -->
-     <div class="banner-header valign bg-img bg-fixed" data-overlay-dark="5" data-background="img/slider/1.jpg">
+     <div class="banner-header valign bg-img bg-fixed" data-overlay-dark="5" data-background="<?= PROOT; ?>assets/media//slider/1.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 caption mt-60 text-center">
@@ -20,32 +20,30 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                        <div class="section-subtitle"><div class="icon"><i class="flaticon-courthouse"></i></div> Get in touch</div>
-                        <div class="section-title">Do you need help? <span>Contact with us now!</span></div>
+                    <div class="section-subtitle"><div class="icon"><i class="flaticon-courthouse"></i></div> Get in touch</div>
+                    <div class="section-title">Do you need help? <span>Contact with us now!</span></div>
                     <div class="item"> <i class="icon fa-regular fa-location-dot"></i>
                         <div class="cont">
                             <h5>Address</h5>
-                            <p>0665 Broadway NY, 10001 USA</p>
+                            <p>0665 McKeown KSI, 10001 GH</p>
                         </div>
                     </div>
                     <div class="item"> <i class="icon fa-solid fa-phone"></i>
                         <div class="cont">
                             <h5>Phone</h5>
-                            <p><a href="tel:+11235678910">+1 123 567 8910</a></p>
+                            <p><a href="tel:+11235678910">+233 00 000 0000</a></p>
                         </div>
                     </div>
                     <div class="item"> <i class="icon fa-regular fa-envelope"></i>
                         <div class="cont">
                             <h5>e-Mail</h5>
-                            <p>legal@lawdit.com</p>
+                            <p>legal@gabora.com</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-5 offset-md-1">
-
-                    
                     <div class="contact-form">
-                    <form method="post">
+                        <form method="post">
                            <h3>Contact with us <span>now!</span></h3>
                            <div class="row">
                             <div class="col-md-12">
@@ -69,7 +67,7 @@
     </section>
     <!-- Get in touch -->
     <section class="call">
-        <div class="background bg-img bg-fixed section-padding" data-background="img/slider/12.jpg" data-overlay-dark="3">
+        <div class="background bg-img bg-fixed section-padding" data-background="<?= PROOT; ?>assets/media//slider/12.jpg" data-overlay-dark="3">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-8 col-md-12">
@@ -79,7 +77,7 @@
                         <div class="call-center">
                             <div class="icon"><i class="fa-solid fa-phone"></i></div>
                             <div class="text">
-                                <p>Get in touch</p> <a href="tel:1234567890">123 456 7890</a>
+                                <p>Get in touch</p> <a href="tel:1234567890">233 000 000 0000</a>
                             </div>
                         </div>
                     </div>

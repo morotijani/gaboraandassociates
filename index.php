@@ -125,7 +125,7 @@
                     <div class="about-bottom mt-30"> <img src="<?= PROOT; ?>assets/media/signature.svg" alt="" class="image about-signature">
                         <div class="about-name-wrapper">
                             <div class="about-rol">President & Co-Founder</div>
-                            <div class="about-name">Emily H. McGill</div>
+                            <div class="about-name">Gabora H. Asamoah</div>
                         </div>
                     </div>
                 </div>
@@ -349,7 +349,7 @@
                 <div class="col-md-12 text-center mt-30">
                     <div class="section-info">
                         <div class="tag">Trust</div>
-                        <div class="desc">Genuine 1000+ people trusting <span class="text-decoration-line-bottom">Lawdit</span> law firm.</div>
+                        <div class="desc">Genuine 1000+ people trusting <span class="text-decoration-line-bottom">Gabora</span> law firm.</div>
                     </div>
                 </div>
             </div>

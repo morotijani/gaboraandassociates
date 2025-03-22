@@ -97,7 +97,7 @@
                     <div class="about-bottom mt-30"> <img src="<?= PROOT; ?>assets/media/signature.svg" alt="" class="image about-signature">
                         <div class="about-name-wrapper">
                             <div class="about-rol">President & Co-Founder</div>
-                            <div class="about-name">Emily H. McGill</div>
+                            <div class="about-name">Gabora H. Asamoah</div>
                         </div>
                     </div>
                 </div>
@@ -242,7 +242,7 @@
                         <div class="call-center">
                             <div class="icon"><i class="fa-solid fa-phone"></i></div>
                             <div class="text">
-                                <p>Get in touch</p> <a href="tel:1234567890">123 456 7890</a>
+                                <p>Get in touch</p> <a href="tel:1234567890">00 000 0000</a>
                             </div>
                         </div>
                     </div>

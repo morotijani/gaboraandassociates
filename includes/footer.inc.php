@@ -20,11 +20,11 @@
                     <div class="col-md-3 offset-md-1 mb-30">
                         <div class="item">
                             <h3>Contact</h3>
-                            <p>0665 Broadway st.
-                                <br>10234 NY, USA
+                            <p>0665 Mall st.
+                                <br>10234 KSI, GH
                             </p>
-                            <div class="phone mb-0"><a href="tel:+11235678910">+1 123 567 8910</a></div>
-                            <div class="mail"><a href="mailto:legal@lawdit.com">legal@lawdit.com</a></div>
+                            <div class="phone mb-0"><a href="tel:+11235678910">+233 00 000 0000</a></div>
+                            <div class="mail"><a href="mailto:legal@lawdit.com">legal@gabora.com</a></div>
                         </div>
                     </div>
                     <div class="col-md-4 mb-30">
