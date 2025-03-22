@@ -311,7 +311,7 @@
                                 <div class="full-width">
                                     <p>Best lawyers in the area. Hard working, attentive, very knowledgeable, ethical. You can’t do better.</p>
                                     <div class="review-title">
-                                        <div class="img"> <img src="img/team/1.jpg" alt=""> </div>
+                                        <div class="img"> <img src="<?= PROOT; ?>assets/media/team/1.jpg" alt=""> </div>
                                         <h6>Emily Martin</h6>
                                         <div class="icons"> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> </div>
                                     </div>
@@ -323,7 +323,7 @@
                                 <div class="full-width">
                                     <p>These firms exceed client expectations consistently and demonstrate deep business understanding.</p>
                                     <div class="review-title">
-                                        <div class="img"> <img src="img/team/2.jpg" alt=""> </div>
+                                        <div class="img"> <img src="<?= PROOT; ?>assets/media/team/2.jpg" alt=""> </div>
                                         <h6>James Martin</h6>
                                         <div class="icons"> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> </div>
                                     </div>
@@ -335,7 +335,7 @@
                                 <div class="full-width">
                                     <p>Best lawyers in the area. Hard working, attentive, very knowledgeable, ethical. You can’t do better.</p>
                                     <div class="review-title">
-                                        <div class="img"> <img src="img/team/3.jpg" alt=""> </div>
+                                        <div class="img"> <img src="<?= PROOT; ?>assets/media/team/3.jpg" alt=""> </div>
                                         <h6>Olivia Brown</h6>
                                         <div class="icons"> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> </div>
                                     </div>
