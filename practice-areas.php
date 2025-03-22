@@ -185,7 +185,7 @@
                         <div class="call-center">
                             <div class="icon"><i class="fa-solid fa-phone"></i></div>
                             <div class="text">
-                                <p>Get in touch</p> <a href="tel:1234567890">123 456 7890</a>
+                                <p>Get in touch</p> <a href="tel:1234567890">000 000 0000</a>
                             </div>
                         </div>
                     </div>
